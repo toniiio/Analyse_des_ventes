@@ -1,21 +1,31 @@
-📊 Analyse des Ventes
+📊 Analyse des Ventes - Projet de Positionnement Simplon.co
 
-Ce projet a été réalisé dans le cadre d’un test de positionnement pour intégrer la formation Data Engineer de Simplon.co. Vous êtes technicien système au sein d’une PME de services numériques et vous assistez un data engineer afin d’aider un client à mieux comprendre la dynamique de ses ventes et améliorer sa stratégie décisionnelle.
+Ce projet a été réalisé dans le cadre d’un test de positionnement pour intégrer la formation Data Engineer de Simplon.co. Il vise à fournir une première exploration des données de ventes d’un client à travers une architecture conteneurisée et reproductible.
+
 
 🚀 Fonctionnalités
-Analyse préliminaire des données de ventes sur 30 jours.
-Nettoyage et transformation des jeux de données.
-Architecture conteneurisée avec séparation des responsabilités :
-Service d’exécution des scripts.
-Service de gestion des données avec SQLite.
+Analyser un jeu de données de ventes sur 30 jours
+
+Nettoyer, transformer et stocker les données
+
+Concevoir une architecture composée de deux services conteneurisés :
+
+Service de scripts Python pour l’analyse des données
+
+Service de base de données SQLite pour la persistance des informations
 
 🛠️ Technologies utilisées
-Docker & Docker Compose : Conteneurisation des services pour un déploiement reproductible.
-SQLite : Base de données légère pour stocker les ventes, produits et points de vente.
-Python 
+Python : Nettoyage, transformation et visualisation des données
+
+Docker & Docker Compose : Conteneurisation pour garantir la portabilité et la reproductibilité
+
+SQLite : Base de données légère pour les produits, magasins et ventes
 
 💡 Objectif pédagogique
 Analyser un jeu de données de ventes sur 30 jours.
+
 Mettre en place une architecture en deux services conteneurisés :
+
 Service d'exécution de scripts en Python (ou tout autre langage choisi).
+
 Service de base de données avec SQLite pour stocker les données produits, magasins et transactions.
