@@ -1,4 +1,4 @@
-# 📊 Analyse des Ventes - Projet de Positionnement [Visiter Simplon.co](https://www.simplon.co/data-ia/data-engineer)
+# 📊 Analyse des Ventes - Projet de Positionnement ([Visiter Simplon.co](https://www.simplon.co/data-ia/data-engineer))
 
 Ce projet a été réalisé dans le cadre d’un test de positionnement pour intégrer la formation Data Engineer de Simplon.co. Il vise à fournir une première exploration des données de ventes d’un client à travers une architecture conteneurisée et reproductible.
 
