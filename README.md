@@ -7,7 +7,7 @@ Ce projet a été réalisé dans le cadre d’un test de positionnement pour int
 
 - Analyser un jeu de données de ventes sur 30 jours
 - Nettoyer, transformer et stocker les données
-- Concevoir une architecture composée de deux services conteneurisés :
+- Concevoir une architecture composée de deux services conteneurisés 
 - Service de scripts Python pour l’analyse des données
 - Service de base de données SQLite pour la persistance des informations
 
