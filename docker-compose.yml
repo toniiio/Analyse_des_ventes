@@ -1,0 +1,23 @@
+
+services:  
+  db:
+    image: postgres:latest
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: client_data
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/data
+    restart: always
+
+  runner:
+    build: .
+    container_name: script_container
+    depends_on:
+      - db
+    volumes:
+      - ./data:/data  
+    restart: on-failure
